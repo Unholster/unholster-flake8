@@ -16,6 +16,6 @@ format = ${cyan}%(path)s${reset}:${yellow_bold}%(row)d${reset}:${green_bold}%(co
 max-line-length = 100
 inline-quotes = '
 ignore = W503
-application-import-names = cdecsic_mvp
+application-import-names = <nombre-aplicación>
 import-order-style = smarkets
 ```
