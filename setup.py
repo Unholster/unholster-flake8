@@ -10,7 +10,7 @@ setup(
     license='unlicense',
     packages=['unholster-flake8'],
     install_requires=[
-        'flake8',
+        'flake8==3.7.8',
     ],
     zip_safe=False
 )
