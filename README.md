@@ -1,10 +1,10 @@
 # unholster-flake8
 
-## Instalación con pip:
+## Instalación con pip
 
 `pip install git+https://github.com/Unholster/unholster-flake8.git@<tag-version>`
 
-## Instalación con pipenv:
+## Instalación con pipenv
 
 `pipenv install git+https://github.com/Unholster/unholster-flake8.git@<tag-version>#egg=unholster-flake8`
 
@@ -22,4 +22,4 @@ application-import-names = <nombre-aplicación>
 import-order-style = smarkets
 ```
 
-Luego de instalar, ejecutar flake8 normalmente.
+Luego de instalar, ejecutar `flake8` normalmente.
