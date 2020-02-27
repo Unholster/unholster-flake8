@@ -9,7 +9,7 @@ setup(
     author_email='',
     license='unlicense',
     packages=['unholster-flake8'],
-    intstall_requires=[
+    install_requires=[
         'flake8',
     ],
     zip_safe=False
