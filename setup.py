@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='unholster-flake8',
-    version='0.0.1',
+    version='0.1.0',
     description='Flake8 Dependencies',
     url='git@github.com:Unholster/unholster-flake8.git',
     author='Unholster',
