@@ -6,4 +6,4 @@ Instalación con pip:
 
 Instalación con pipenv:
 
-`pipenv install git+https://github.com/Unholster/unholster-flake8.git@v0.1.0#egg=unholster-flake8`
+`pipenv install git+https://github.com/Unholster/unholster-flake8.git@<tag-version>#egg=unholster-flake8`
