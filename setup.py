@@ -17,6 +17,7 @@ setup(
         'flake8-debugger==3.2.1',
         'flake8-import-order==0.18.1',
         'flake8-quotes==2.1.1',
+        'pep8-naming==0.9.1',
     ],
-    zip_safe=False
+    zip_safe=False,
 )
