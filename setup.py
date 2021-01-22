@@ -11,6 +11,7 @@ setup(
     packages=['unholster-flake8'],
     install_requires=[
         'flake8>=3.8,<3.9',
+        'flake8-bugbear>=20.11.1',
         'flake8-colors>=0.1',
         'flake8-commas>=2.0,<3',
         'flake8-comprehensions>=3.3,<3.4',
