@@ -20,7 +20,7 @@ El archivo de configuración `tox.ini` que se recomienda es el siguiente:
 exclude = .venv
 format = ${cyan}%(path)s:${yellow_bold}%(row)d:${green_bold}%(col)d: ${red_bold}%(code)s ${reset}%(text)s
 application-import-names = <nombre-aplicación>
-select = C,E,F,W,I,Q,B,B9
+select = C,E,F,W,I,Q,B,B9,T,A
 ignore = W503, E501
 import-order-style = smarkets
 inline-quotes = '
