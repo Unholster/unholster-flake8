@@ -12,13 +12,17 @@
 
 `poetry add git+https://github.com/Unholster/unholster-flake8.git@<tag-version>`
 
+## Instalación con PDM
+
+`pdm add unholster-flake8 @ git+https://github.com/Unholster/unholster-flake8.git@<tag-version>`
+
 ## Uso
 
 El archivo de configuración `tox.ini` que se recomienda es el siguiente:
 ```
 [flake8]
 exclude = .venv
-format = ${cyan}%(path)s:${yellow_bold}%(row)d:${green_bold}%(col)d: ${red_bold}%(code)s ${reset}%(text)s
+format = %(cyan)s%(path)s%(reset)s:%(yellow)s%(bold)s%(row)d%(reset)s:%(green)s%(bold)s%(col)d%(reset)s: %(red)s%(bold)s%(code)s %(reset)s%(text)s
 application-import-names = <nombre-aplicación>
 select = C,E,F,W,I,Q,B,B9,T,A
 ignore = W503, E501
